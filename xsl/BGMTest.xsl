@@ -4,6 +4,10 @@
 
 <xsl:param name="_temp_selbgm"/>
 
+<xsl:comment>
+    <xsl:text>ƒRƒƒ“ƒg‚Å‚·</xsl:text>
+</xsl:comment>
+
 <xsl:template match="CallTrans">
 	<xsl:variable name="BgmDef" select="document('../System/BGMDefine.xml')/BGMFiles"/>
 	<xsl:variable name="search" select="$_temp_selbgm"/>
